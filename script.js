@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             // Fazer a requisição para o backend Flask
             // Assumindo que o backend estará rodando em http://localhost:5000
-            const response = await fetch("http://localhost:5000/api/shorten", {
+            const response = await fetch("https://nadinael.pythonanywhere.com/api/shorten", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
